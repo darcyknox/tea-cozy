@@ -69,11 +69,11 @@ header {
 #monthly {
   margin: 20px auto;
   width: 1000px;
+  justify-content: space-evenly
 }
 
 .wrap {
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 #monthly .flex-item img {
@@ -82,12 +82,10 @@ header {
 }
 
 .locations {
-  display: flex;
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  align-items: center;
   text-align: center;
 }
 
@@ -95,6 +93,20 @@ header {
   height: 300px;
   width: 300px;
   background-color: black;
+  margin: 0 20px;
+  line-height: 40px;
+}
+.locations h2 {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
 
-/*comment*/
+footer {
+  text-align: left;
+  margin: 40px;
+}
+
+.info {
+  line-height: 40px;
+}
